@@ -241,11 +241,11 @@ ul li {
 }
 
 .begin-form {
-    background-image: asset-data-url('https://github.com/xcadaverx/TicketMailerCSS/raw/master/tickettop.png');
+    background-image: url('https://github.com/xcadaverx/TicketMailerCSS/raw/master/tickettop.png');
     width: 554px;
 }
 
 .end-form {
-  background-image: asset-data-url('https://github.com/xcadaverx/TicketMailerCSS/raw/master/ticketbottom.png');
+  background-image: url('https://github.com/xcadaverx/TicketMailerCSS/raw/master/ticketbottom.png');
   width: 554px;
 }
