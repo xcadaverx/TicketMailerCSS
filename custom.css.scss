@@ -1,0 +1,251 @@
+.test-green {
+  background-color: green;
+}
+.test-blue {
+  background-color: blue;
+}
+.test-red {
+  background-color: red;
+}
+
+.ticket-background {
+  background-color: #E7D9A8;
+	width: 554px;
+}
+
+.logo {
+	width: 218px;
+	height: 40px;
+  margin-bottom: 15px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.order-number {
+	font-family: Helvetica;
+  font-weight: bold;
+  height: 29px;
+	font-size: 24px;
+	text-align: center;
+	color: #4e4f4d;
+}
+
+.upgrade-type {
+	font-family: Helvetica;
+  font-weight: bold;
+  height: 29px;
+	font-size: 24px;
+  margin-bottom: 8px;
+	text-align: center;
+	color: #4e4f4d;
+}
+
+.seperator {
+  height: 1px;
+  margin: 9px;
+  border-bottom: solid 1px #4e4f4d;
+}
+
+.left-label {
+  height: 19px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 16px;
+  margin-left: 18px;
+  color: #4e4f4d;
+  float: left;
+}
+
+.right-label {
+  height: 19px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 16px;
+  margin-right: 22px;
+  color: #4e4f4d;
+  float: right;
+}
+
+.name-data {
+  margin-left: 18px;
+  margin-bottom: 16px;
+  float: left;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 24px;
+  color: #4e4f4d;
+}
+
+.qty-data {
+  height: 29px;
+  margin-right: 22px;
+  margin-bottom: 16px;
+  float: right;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 24px;
+  color: #4e4f4d;
+}
+
+.event-data {
+  margin-right: 22px;
+  margin-left: 18px;
+  margin-bottom: 16px;
+  float: left;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 24px;
+  color: #4e4f4d;
+}
+
+.date-data {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  color: #4e4f4d;
+  float: left;
+  margin-left: 18px;
+  margin-bottom: 16px;
+}
+
+.venue-data {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  color: #4e4f4d;
+  float: right;
+  margin-right: 18px;
+  margin-bottom: 17px;
+  text-align: right;
+  padding: 0;
+}
+
+.venue-website {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 16px;
+  color: #4e4f4d;
+  float: right;
+  margin-right: 18px;
+  margin-bottom: 16px;
+  text-align: right;
+}
+
+.check-in-data {
+  height: 22px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  color: #4e4f4d;
+  float: left;
+  margin-left: 18px;
+  margin-bottom: 10px;
+}
+
+.start-time-data {
+  height: 22px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  color: #4e4f4d;
+  float: right;
+  margin-right: 22px;
+  margin-bottom: 10px;
+}
+
+.print-ticket {
+  height: 29px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 24px;
+  float: center;
+  color: #4e4f4d;
+}
+
+ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: table-cell;
+  width: auto;
+  text-align: center;
+}
+
+.optional-items {
+  background: #837135;
+  min-height: 104px;
+  color: white;
+  text-align: center;
+  margin: 5px;
+  padding-bottom: 10px;
+}
+
+.optional-label {
+  height: 19px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 4px;
+}
+
+.optional-data {
+  font-family: Helvetica;
+  font-size: 12px;
+}
+
+.optional-date {
+  height: 19px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.notes-label {
+  height: 19px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #4e4f4d;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.notes-item {
+  background: #837135;
+  color: white;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 8px;
+}
+
+.notes-data {
+  font-size: 12px;
+  font-family: Helvetica;
+}
+
+.bundle-item {
+  background: #837135;
+  color: white;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 12px;
+  padding: 8px;
+}
+
+.begin-form {
+    background-image: asset-data-url('tickettop.png');
+    width: 554px;
+}
+
+.end-form {
+  background-image: asset-data-url('ticketbottom.png');
+  width: 554px;
+}
